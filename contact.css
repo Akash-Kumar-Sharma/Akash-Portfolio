@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppies', sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #212E5E;
+}
+
+#nav-header {
+    /* position: absolute;
+    left: 5%;
+    top: 2%; */
+    margin-right: auto;
+    margin-left: 32px;
+    font-size: 32px;
+    color: white;
+    font-weight: 600;
+
+   font-family: 'Poppins', sans-serif;
+    /* margin-right: 500px; */
+}
+
+.container {
+    display: flex;
+    justify-content: end;
+    /* border: 2px solid white; */
+    padding: 12px;
+    /* box-shadow: 12px 12px 2px 1px rgba(5, 5, 66, 0.2); */
+    box-shadow: 2px 5px 10px #151d3b;
+}
+
+nav {
+
+    /* align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; */
+    
+    margin-top: 8px;
+    margin-right: 100px;
+
+}
+
+nav ul li {
+    display: inline;
+    list-style: none;
+    margin: 20px 10px;
+
+}
+
+nav ul li a {
+    color: #B3B3B3;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 500;
+    /* padding: 8px; */
+    /* margin-top: 12px; */
+
+}
+
+/* nav ::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+} */
+
+li :hover{
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: aqua;
+    
+}
+
+
+.header-text {
+
+    margin-top: 13%
+}
+
+.header-text p {
+    font-size: 18px;
+    font-family: 'Karla', sans-serif; 
+    color: aqua;
+}
+
+.header-text h1 {
+    font-size: 50px;
+    color: white;
+    font-family: 'Karla', sans-serif;
+    margin-left: 205px;
+}
+
+.header-text h2 {
+    color: white;
+    font-weight: 600;
+    font-size:45px;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 205px;
+}
+
+div p {
+  
+    padding: 10px;
+    font-weight: 400;
+    font-family: 'Karla', sans-serif;
+    gap: 14px;
+    margin-left: 200px;
+    margin-right: 500px;
+    color: white;
+    font-size: 22px;
+    line-height: 1.5;
+
+}
+
+
+/* Here Start The Contact CSS */
+#contact-boxshadow {
+    position: absolute;
+    top: 28%;
+    margin-left: 200px;
+    width: 475px;
+    height: 53vh;
+    /* margin: auto;
+  width: 450px;
+  height: auto; */
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(45deg,
+            transparent,
+            var(--color-primary),
+            transparent);
+    display: grid;
+    place-items: center;
+    /* border:1px solid white; */
+    transform: rotate(10deg);
+    transition: var(--transition);
+    background-color: rgba(205, 214, 249, 0.1);
+    /* opacity: 0.4; */
+
+    /* position: relative;
+     position: absolute;
+    top: 28%; 
+    margin-left: 200px;
+    width: 475px;
+    height: 53vh;
+    border-radius: 30px;
+    border: 2px solid white;
+    background-color: rgba(205,214,249,.9);
+    z-index: -99;
+    transform: rotate(7deg); */
+
+}
+
+#contact-box {
+
+    z-index: 1;
+    position: absolute;
+    top: 28%;
+    margin-left: 200px;
+    width: 475px;
+    letter-spacing: 5px;
+    height: 53vh;
+    border-radius: 30px;
+    border: 2px solid white;
+    background-color: rgba(205, 214, 249, .9);
+}
+
+
+#contact-number {
+    margin-top: 17%;
+    color: #151d3b;
+
+}
+
+#contact-gmail {
+    letter-spacing: 2px;
+    margin-top: 7%;
+   
+    /* text-transform: uppercase; */
+    text-transform: lowercase;
+    color: #151d3b;
+}
+
+#contact-address {
+    margin-top: 8%;
+    line-height: 1.9;
+    color: #151d3b;
+    letter-spacing: 3px;
+    
+    
+    /* font-family: 'Karla', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+
+}
+
+.contaact-box {
+    margin-left: 18px;
+    /* font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: #151d3b; */
+}
+
+svg {
+    width: 10px;
+    height: 10px;
+}
+
+#detail-box {
+    position: absolute;
+    top: 27%;
+    left: 5%;
+    margin-left: 750px;
+    width: 400px;
+    height: 50vh;
+    /* border-radius: 30px;
+    border: 2px solid white;
+    background-color: rgba(205,214,249,.9); */
+}
+
+#username,
+#phone,
+#email {
+    background: transparent;
+    border: 3px solid #CDD6F9;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+}
+
+.form-control {
+    width: 350px;
+    margin: 10px;
+    padding: 16px;
+    font-size: 18px;
+}
+
+#message {
+    background: transparent;
+    border: 3px solid #CDD6F9;
+    color: white;
+    border-radius: 10px;
+}
+
+.form-submit {
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+    background-color: #CDD6F9;
+    border: none;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 10px;
+    font-size: 17px;
+    position: absolute;
+    left: 40%;
+    top: 102%;
+    /* box-shadow: none; */
+}
